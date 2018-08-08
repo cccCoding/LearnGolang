@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21ce630e-d38b-4984-8bb7-3adf4aa2d105" name="Default" comment="" />
+    <list default="true" id="21ce630e-d38b-4984-8bb7-3adf4aa2d105" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/go语言圣经实战1入门/1命令行参数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Node.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/go语言实战5分布式编程/Node.go">
+      <file leaf-file-name="1命令行参数.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/go语言圣经实战1入门/1命令行参数.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+            <state relative-caret-position="278">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="e#14#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,7 +43,10 @@
       <find>RemoteAddr</find>
     </findStrings>
   </component>
-  <component name="GOROOT" path="C:\Go" />
+  <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="urls">
       <list>
@@ -48,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa0.156/6.AES2.go" />
         <option value="$PROJECT_DIR$/go语言实战3加密解密/83DES.go" />
         <option value="$PROJECT_DIR$/go语言实战3加密解密/9RSA.go" />
         <option value="$PROJECT_DIR$/go语言实战3加密解密/10RSA.go" />
@@ -99,6 +107,7 @@
         <option value="$PROJECT_DIR$/go语言实战3加密解密/9RSAkey.go" />
         <option value="$PROJECT_DIR$/go语言实战4包编程/包编程.go" />
         <option value="$PROJECT_DIR$/go语言实战5分布式编程/Node.go" />
+        <option value="$PROJECT_DIR$/go语言圣经实战1入门/1命令行参数.go" />
       </list>
     </option>
   </component>
@@ -111,11 +120,14 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="296" />
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="649" />
+    <option name="y" value="25" />
     <option name="width" value="1400" />
     <option name="height" value="989" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -127,8 +139,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="hellogo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hellogo" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnGolang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnGolang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnGolang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnGolang" type="462c0819:PsiDirectoryNode" />
+              <item name="go语言圣经实战1入门" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -143,10 +160,11 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -173,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build Node.go">
+  <component name="RunManager" selected="Go Build.go build 1命令行参数.go">
     <configuration name="go build 10RSA.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="hellogo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -182,13 +200,13 @@
       <filePath value="$PROJECT_DIR$/go语言实战3加密解密/10RSA.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build 7DES.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 1命令行参数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="hellogo" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go语言实战3加密解密/7DES.go" />
-      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/go语言圣经实战1入门/1命令行参数.go" />
+      <directory value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="go build 8DES3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="hellogo" />
@@ -215,44 +233,44 @@
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build 7DES.go" />
       <item itemvalue="Go Build.go build 8DES3.go" />
       <item itemvalue="Go Build.go build 9RSAkey.go" />
       <item itemvalue="Go Build.go build 10RSA.go" />
       <item itemvalue="Go Build.go build Node.go" />
+      <item itemvalue="Go Build.go build 1命令行参数.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 1命令行参数.go" />
         <item itemvalue="Go Build.go build Node.go" />
         <item itemvalue="Go Build.go build 10RSA.go" />
         <item itemvalue="Go Build.go build 9RSAkey.go" />
         <item itemvalue="Go Build.go build 8DES3.go" />
-        <item itemvalue="Go Build.go build 7DES.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="649" y="25" width="1400" height="989" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11145833" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24927746" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005208" side_tool="true" weight="0.25949368" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.23523207" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.23522596" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39873418" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32805908" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +280,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/go语言实战5分布式编程/Node.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/go语言实战5分布式编程/Node.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -332,13 +357,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Go/src/sort/sort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Go/src/sort/sort.go" />
     <entry file="file://$PROJECT_DIR$/go语言入门2/13递归.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-62">
@@ -423,13 +442,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Go/src/log/log.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Go/src/log/log.go" />
     <entry file="file://$PROJECT_DIR$/go语言实战1网络通信/5聊天室/Server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-401">
@@ -444,13 +457,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Go/src/net/http/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="199" column="59" lean-forward="true" selection-start-line="199" selection-start-column="59" selection-end-line="199" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Go/src/net/http/client.go" />
     <entry file="file://$PROJECT_DIR$/go语言实战1网络通信/6http/http_get_post.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -458,13 +465,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Go/src/net/http/server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="2879" column="5" selection-start-line="2879" selection-start-column="5" selection-end-line="2879" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Go/src/net/http/server.go" />
     <entry file="file://$PROJECT_DIR$/go语言实战1网络通信/6http/http_server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -500,66 +501,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Go/src/hash/hash.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/2sha.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/1md5.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/3文件哈希.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Go/src/hash/hash.go" />
     <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/4base64.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/5AES1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/6AES2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="56" column="34" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/7DES.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/8DES3.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="51" column="55" lean-forward="true" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -584,10 +530,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/8DES3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/7DES.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/6AES2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="56" column="34" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/5AES1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <element signature="e#14#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/1md5.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/3文件哈希.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go语言实战3加密解密/2sha.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/go语言实战5分布式编程/Node.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+        <state relative-caret-position="200">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go语言入门/20函数作为一个变量.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go语言入门/1hellogo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go语言圣经实战1入门/1命令行参数.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
