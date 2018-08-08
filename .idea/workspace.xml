@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21ce630e-d38b-4984-8bb7-3adf4aa2d105" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/go语言圣经实战1入门/1命令行参数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go语言圣经实战1入门/2查找重复行.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,13 +14,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1命令行参数.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/go语言圣经实战1入门/1命令行参数.go">
+      <file leaf-file-name="2查找重复行.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/go语言圣经实战1入门/2查找重复行.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="450">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
-                <element signature="e#14#37#0" expanded="true" />
+                <element signature="e#39#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/go语言实战3加密解密/83DES.go" />
         <option value="$PROJECT_DIR$/go语言实战3加密解密/9RSA.go" />
         <option value="$PROJECT_DIR$/go语言实战3加密解密/10RSA.go" />
         <option value="$PROJECT_DIR$/go语言实战4分布式编程.go" />
@@ -108,6 +107,7 @@
         <option value="$PROJECT_DIR$/go语言实战4包编程/包编程.go" />
         <option value="$PROJECT_DIR$/go语言实战5分布式编程/Node.go" />
         <option value="$PROJECT_DIR$/go语言圣经实战1入门/1命令行参数.go" />
+        <option value="$PROJECT_DIR$/go语言圣经实战1入门/2查找重复行.go" />
       </list>
     </option>
   </component>
@@ -121,8 +121,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="649" />
-    <option name="y" value="25" />
+    <option name="x" value="858" />
+    <option name="y" value="28" />
     <option name="width" value="1400" />
     <option name="height" value="989" />
   </component>
@@ -250,15 +250,15 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="649" y="25" width="1400" height="989" extended-state="1" />
+    <frame x="857" y="70" width="1400" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24927746" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24927746" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005208" side_tool="true" weight="0.25949368" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.23522596" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.23522596" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
@@ -280,13 +280,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/go语言实战5分布式编程/Node.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/go语言实战5分布式编程/Node.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -601,10 +594,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/go语言圣经实战1入门/1命令行参数.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="353">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
             <element signature="e#14#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go语言圣经实战1入门/2查找重复行.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#39#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
