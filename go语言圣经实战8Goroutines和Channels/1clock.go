@@ -18,7 +18,11 @@ func main() {
 			log.Print(err)
 			continue
 		}
-		handleConn(conn)
+		//不支持并发,第二个客户端必须等待第一个客户端完成工作,都在main goroutine中运行
+		//handleConn(conn)
+
+		//支持并发,在一个单独的goroutine中运行
+		go handleConn(conn)
 	}
 }
 
