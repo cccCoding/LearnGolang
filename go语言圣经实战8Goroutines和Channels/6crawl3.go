@@ -7,26 +7,28 @@ import (
 	"os"
 )
 
-var tokens = make(chan struct{}, 20)
-
 func main() {
 	worklist := make(chan []string)
-	var n int
+	unseenLinks := make(chan string)
 
-	n++
 	go func() {worklist <- os.Args[1:]}()
 
-	seen := make(map[string]bool)
+	//创建20个crawler goroutines去获取没有被查找的链接
+	for i := 0; i < 20; i++ {
+		go func() {
+			for link := range unseenLinks {
+				foundLinks := crawl(link)
+				go func() {worklist <- foundLinks}()
+			}
+		}()
+	}
 
-	for ; n > 0; n-- {
-		list := <-worklist
+	seen := make(map[string]bool)
+	for list := range worklist {
 		for _, link := range list {
 			if !seen[link] {
 				seen[link] = true
-				n++
-				go func(link string) {
-					worklist <- crawl(link)
-				}(link)
+				unseenLinks <- link
 			}
 		}
 	}
@@ -34,9 +36,7 @@ func main() {
 
 func crawl(url string) []string {
 	fmt.Println(url)
-	tokens <- struct{}{}
 	list, err := links.Extract(url)
-	<-tokens	//release the token
 	if err != nil {
 		log.Print(err)
 	}
