@@ -1,4 +1,4 @@
-package bank
+package main
 
 var (
 	sema = make(chan struct{}, 1)
